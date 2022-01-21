@@ -43,7 +43,7 @@ public class CrearPokemon {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setTitle("Pokedex");
-		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\alumno\\Pictures\\pokemon\\pokebola.png"));
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("Img/pokebola.png"));
 		frame.getContentPane().setBackground(new Color(178, 34, 34));
 		frame.getContentPane().setLayout(null);
 		
@@ -115,5 +115,6 @@ public class CrearPokemon {
 	
 	public void Siguiente() {
 		getTipo = (String) JOptionPane.showInputDialog(frame,"Tipo Pokemon", "Tipo", 3, null, tipos,tipos[0]);
+		
 	}
 }

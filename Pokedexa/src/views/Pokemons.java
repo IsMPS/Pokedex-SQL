@@ -50,7 +50,7 @@ public class Pokemons {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setTitle("Pokedex");
-		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\alumno\\Pictures\\pokemon\\pokebola.png"));
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("Img/pokebola.png"));
 		frame.getContentPane().setBackground(new Color(178, 34, 34));
 		frame.getContentPane().setLayout(null);
 		frame.setBounds(100, 100, 720, 530);
@@ -62,13 +62,13 @@ public class Pokemons {
 		
 		JButton btnFlechaIzq = new JButton("");
 		btnFlechaIzq.setBackground(new Color(178, 34, 34));
-		btnFlechaIzq.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\flechaizq.png"));
+		btnFlechaIzq.setIcon(new ImageIcon("Img/flechaizq.png"));
 		btnFlechaIzq.setBounds(10, 202, 68, 67);
 		frame.getContentPane().add(btnFlechaIzq);
 		
 		JButton btnFlechaDer = new JButton("");
 		btnFlechaDer.setBackground(new Color(178, 34, 34));
-		btnFlechaDer.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\flechader.png"));
+		btnFlechaDer.setIcon(new ImageIcon("Img/flechader.png"));
 		btnFlechaDer.setBounds(626, 202, 68, 67);
 		frame.getContentPane().add(btnFlechaDer);
 		

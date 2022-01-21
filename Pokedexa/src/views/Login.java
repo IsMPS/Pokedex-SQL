@@ -46,7 +46,7 @@ public class Login {
 
 		frame = new JFrame();
 		frame.setTitle("Pokedex");
-		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\alumno\\Pictures\\pokemon\\pokebola.png"));
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("Img/pokebola.png"));
 		frame.getContentPane().setBackground(new Color(178, 34, 34));
 		frame.getContentPane().setLayout(null);
 		frame.setBounds(100, 100, 720, 530);
@@ -56,12 +56,12 @@ public class Login {
 
 	public void visuallog() {
 		JLabel minilogo = new JLabel("");
-		minilogo.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\AAAAAAAAAAA.png"));
+		minilogo.setIcon(new ImageIcon("Img/AAAAAAAAAAA.png"));
 		minilogo.setBounds(596, 438, 108, 53);
 		frame.getContentPane().add(minilogo);
 
 		JLabel logogrande = new JLabel("");
-		logogrande.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\pixelpoke.png"));
+		logogrande.setIcon(new ImageIcon("Img/pixelpoke.png"));
 		logogrande.setBounds(177, 59, 340, 137);
 		frame.getContentPane().add(logogrande);
 
@@ -96,12 +96,12 @@ public class Login {
 		frame.getContentPane().add(logcheck);
 
 		JLabel loginpng = new JLabel("");
-		loginpng.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\chiquitologin.png"));
+		loginpng.setIcon(new ImageIcon("Img/chiquitologin.png"));
 		loginpng.setBounds(298, 183, 89, 53);
 		frame.getContentPane().add(loginpng);
 
 		JLabel piplup = new JLabel("");
-		piplup.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\piplupnopetes.png"));
+		piplup.setIcon(new ImageIcon("Img/piplupnopetes.png"));
 		piplup.setBounds(424, 178, 280, 330);
 		frame.getContentPane().add(piplup);
 		

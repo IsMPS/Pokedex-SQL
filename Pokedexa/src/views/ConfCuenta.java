@@ -101,12 +101,12 @@ public class ConfCuenta {
 		frame.getContentPane().add(btnSalirCon);
 		
 		JLabel minilogo = new JLabel("");
-		minilogo.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\AAAAAAAAAAA.png"));
+		minilogo.setIcon(new ImageIcon("Img/AAAAAAAAAAA.png"));
 		minilogo.setBounds(596, 438, 108, 53);
 		frame.getContentPane().add(minilogo);
 		
 		JLabel logogrande = new JLabel("");
-		logogrande.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\pixelpoke.png"));
+		logogrande.setIcon(new ImageIcon("Img/pixelpoke.png"));
 		logogrande.setBounds(177, 59, 340, 137);
 		frame.getContentPane().add(logogrande);
 		

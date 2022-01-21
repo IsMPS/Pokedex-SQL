@@ -34,7 +34,7 @@ public class Pokedex {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setTitle("Pokedex");
-		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\alumno\\Pictures\\pokemon\\pokebola.png"));
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("Img/pokebola.png"));
 		frame.getContentPane().setBackground(new Color(178, 34, 34));
 		frame.getContentPane().setLayout(null);
 		frame.setBounds(100, 100, 720, 530);
@@ -44,17 +44,17 @@ public class Pokedex {
 	private void visual() {
 		
 		JLabel minilogo = new JLabel("");
-		minilogo.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\AAAAAAAAAAA.png"));
+		minilogo.setIcon(new ImageIcon("Img/AAAAAAAAAAA.png"));
 		minilogo.setBounds(596, 438, 108, 53);
 		frame.getContentPane().add(minilogo);
 		
 		JLabel logogrande = new JLabel("");
-		logogrande.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\pixelpoke.png"));
+		logogrande.setIcon(new ImageIcon("Img/pixelpoke.png"));
 		logogrande.setBounds(177, 59, 340, 137);
 		frame.getContentPane().add(logogrande);
 		
 		JLabel pokeball = new JLabel("");
-		pokeball.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\pokeballabierta.png"));
+		pokeball.setIcon(new ImageIcon("Img/pokeballabierta.png"));
 		pokeball.setBounds(309, 226, 73, 98);
 		frame.getContentPane().add(pokeball);
 		

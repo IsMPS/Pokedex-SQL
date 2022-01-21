@@ -42,7 +42,7 @@ public class Register {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setTitle("Pokedex");
-		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\alumno\\Pictures\\pokemon\\pokebola.png"));
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("Img/pokebola.png"));
 		frame.getContentPane().setBackground(new Color(178, 34, 34));
 		frame.getContentPane().setLayout(null);
 		frame.setBounds(100, 100, 720, 530);
@@ -71,17 +71,17 @@ public class Register {
 		frame.getContentPane().add(btnSalir);
 
 		JLabel minilogo = new JLabel("");
-		minilogo.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\AAAAAAAAAAA.png"));
+		minilogo.setIcon(new ImageIcon("Img/AAAAAAAAAAA.png"));
 		minilogo.setBounds(596, 438, 108, 53);
 		frame.getContentPane().add(minilogo);
 
 		JLabel logogrande = new JLabel("");
-		logogrande.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\pixelpoke.png"));
+		logogrande.setIcon(new ImageIcon("Img/pixelpoke.png"));
 		logogrande.setBounds(177, 59, 340, 137);
 		frame.getContentPane().add(logogrande);
 
 		JLabel registerpng = new JLabel("");
-		registerpng.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\registerr.png"));
+		registerpng.setIcon(new ImageIcon("Img/registerr.png"));
 		registerpng.setBounds(290, 179, 108, 53);
 		frame.getContentPane().add(registerpng);
 
@@ -117,12 +117,12 @@ public class Register {
 		frame.getContentPane().add(TConfContraseña);
 
 		JLabel pokdx = new JLabel("");
-		pokdx.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\pokedeee.png"));
+		pokdx.setIcon(new ImageIcon("Img/pokedeee.png"));
 		pokdx.setBounds(338, -12, 454, 513);
 		frame.getContentPane().add(pokdx);
 
 		JLabel empoleon = new JLabel("");
-		empoleon.setIcon(new ImageIcon("C:\\Users\\alumno\\Pictures\\pokemon\\porfavor.png"));
+		empoleon.setIcon(new ImageIcon("Img/porfavor.png"));
 		empoleon.setBounds(0, 37, 289, 333);
 		frame.getContentPane().add(empoleon);
 
