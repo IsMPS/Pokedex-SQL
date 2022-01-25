@@ -18,6 +18,8 @@ import utils.Almacen;
 
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.awt.event.ActionEvent;
 
 public class Register {
@@ -89,14 +91,38 @@ public class Register {
 		username.setBounds(349, 247, 120, 20);
 		frame.getContentPane().add(username);
 		username.setColumns(10);
+		username.addKeyListener(new KeyAdapter() {
+			@Override
+			public void keyPressed(KeyEvent e) {
+				if(e.getKeyCode()==KeyEvent.VK_ENTER) {
+					checkreg();
+				}
+			}
+		});
 
 		password = new JPasswordField();
 		password.setBounds(349, 286, 120, 20);
 		frame.getContentPane().add(password);
+		password.addKeyListener(new KeyAdapter() {
+			@Override
+			public void keyPressed(KeyEvent e) {
+				if(e.getKeyCode()==KeyEvent.VK_ENTER) {
+					checkreg();
+				}
+			}
+		});
 
 		passwordconf = new JPasswordField();
 		passwordconf.setBounds(349, 328, 120, 20);
 		frame.getContentPane().add(passwordconf);
+		passwordconf.addKeyListener(new KeyAdapter() {
+			@Override
+			public void keyPressed(KeyEvent e) {
+				if(e.getKeyCode()==KeyEvent.VK_ENTER) {
+					checkreg();
+				}
+			}
+		});
 
 		JLabel Tnombre = new JLabel("Username: ");
 		Tnombre.setForeground(new Color(255, 255, 255));

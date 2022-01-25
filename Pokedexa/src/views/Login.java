@@ -20,6 +20,8 @@ import javax.swing.JOptionPane;
 import java.awt.Font;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.awt.event.ActionEvent;
 
@@ -69,10 +71,26 @@ public class Login {
 		logusername.setBounds(349, 247, 109, 20);
 		frame.getContentPane().add(logusername);
 		logusername.setColumns(10);
+		logusername.addKeyListener(new KeyAdapter() {
+			@Override
+			public void keyPressed(KeyEvent e) {
+				if(e.getKeyCode()==KeyEvent.VK_ENTER) {
+					checklog();
+				}
+			}
+		});
 
 		logpassword = new JPasswordField();
 		logpassword.setBounds(349, 286, 109, 20);
 		frame.getContentPane().add(logpassword);
+		logpassword.addKeyListener(new KeyAdapter() {
+			@Override
+			public void keyPressed(KeyEvent e) {
+				if(e.getKeyCode()==KeyEvent.VK_ENTER) {
+					checklog();
+				}
+			}
+		});
 
 		JLabel Tnombre = new JLabel("Username: ");
 		Tnombre.setForeground(new Color(255, 255, 255));

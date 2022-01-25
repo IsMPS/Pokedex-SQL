@@ -69,6 +69,7 @@ public class Programa {
 		login.setForeground(new Color(178, 34, 34));
 		login.setBackground(new Color(178, 34, 34));
 		login.setIcon(new ImageIcon("Img/chiquitologin.png"));
+		login.setBorder(null);
 		login.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frmPokedex.setVisible(false);
@@ -89,6 +90,7 @@ public class Programa {
 		frmPokedex.getContentPane().add(logogrande);
 		
 		JButton register = new JButton("");
+		register.setBorder(null);
 		register.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frmPokedex.setVisible(false);

@@ -51,6 +51,10 @@ insert into Pokemons
 values
 (1, 'Bulbasur',6.9,0.7,12,17);
 
+insert into Users
+values
+('a','a');
+
 insert into Pokemons
 values
 (2, 'Ivysaur',13.0,1.0,12,17),
@@ -62,12 +66,9 @@ values
 (8, 'Wartortle',22.5,1.0,2,null),
 (9, 'Blastoise',85.5,1.6,2,null);
 
-create view PokeComple as 
-select p.idPoke 'Numero', p.NombrePoke 'Nombre', p.Peso, p.Altura, t.NombreTipo from Pokemons p
-inner join Tipos t on t.ID_Tipo=p.ID_Tipo;
-
-select * from PokeComple;
-
 select * from Users;
 
 select * from Pokemons;
+select * from tipos;
+
+SELECT IdPoke, NombrePoke, Peso, Altura, ID_Tipo, ID_Tipo2 FROM Pokemons order by IdPoke;

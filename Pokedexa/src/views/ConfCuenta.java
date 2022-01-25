@@ -156,8 +156,11 @@ public class ConfCuenta {
 	}
 	
 	public void borrar() {
-		frame.setVisible(false);
+		if(JOptionPane.showConfirmDialog(frame, "¿Estás seguro de querer borrar esta cuenta? Usuario: " + user)==0) {
+			frame.setVisible(false);
 		UsersDAO.borrar(user);
 		new Programa();
+		}
 	}
+	
 }
